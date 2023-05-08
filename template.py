@@ -3,7 +3,7 @@ import pymoddinglib as pml
 
 def main():
     print('Running...')
-    app = pml.ModdableApp('mods'), True, True)
+    app = pml.ModdableApp('mods'), True, True))
     app.enable_all()
     app.run_mods()
     print('Done')
